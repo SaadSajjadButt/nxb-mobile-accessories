@@ -7,7 +7,9 @@ function App() {
       <div style={{overflow: 'hidden'}}>
       <Switch>
   
-  
+          <Route path="/collection">
+            <Collection/>
+          </Route>
       </Switch>    
       </div>    
     );
