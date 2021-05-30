@@ -6,6 +6,9 @@ function App() {
     return(
       <div style={{overflow: 'hidden'}}>
       <Switch>
+          <Route exact path ="/">
+              <Home/>
+          </Route>
           <Route path="/collection">
             <Collection/>
           </Route>
