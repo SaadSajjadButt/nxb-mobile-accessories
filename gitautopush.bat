@@ -1,6 +1,6 @@
 cls
 git add .
-git commit -m "Commit Message"
-git push -M master
+git commit -m "Commit Message for updation test"
+git push 
 git status
 
